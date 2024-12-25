@@ -21,7 +21,7 @@ func search(seen [][]bool, grid [][]int, i int, j int) int {
 }
 
 func main() {
-  input, _ := os.ReadFile("input/input10.txt.test")
+  input, _ := os.ReadFile("input/input10.txt")
   lines := strings.Split(string(input), "\n")
 
   grid := [][]int{}
